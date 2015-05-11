@@ -19,7 +19,7 @@ my $response = $browser->post(
   [
     'startdatum'      => $datum,
     'einddatum'       => $datum,
-    'prestatie'       => 'Stage -kunstmaan'
+    'prestatie'       => $prestatie,
   ],
 );
 
